@@ -3,6 +3,32 @@
 ## 👨‍💻 About Me
 I'm a passionate backend developer with a love for building scalable systems and working with diverse technologies. I thrive in solving complex problems and continuously learning new techniques to improve my craft. When I'm not coding, I enjoy contributing to open-source projects and collaborating with fellow developers.
 
+## Information
+```go
+package main
+
+import "fmt"
+
+type Person struct {
+  name string
+  username string
+  age int
+  hobbies []string
+  job string
+}
+
+func main() {
+  var me = new(Person)
+  
+  me.name     = "U7P4L 1N"
+  me.username = "U7P4L-IN"
+  me.age      = "20"
+  me.job      = "AI developer | Web developer"
+  me.hobbies  = []string{"code", "anime", "music"," guiterist"," gaming"}
+  
+  fmt.Println(me)
+}
+```
 ### 💻 Tech Stack
 #### Backend:
 ![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white)
