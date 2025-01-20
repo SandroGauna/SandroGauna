@@ -20,16 +20,15 @@ type Person struct {
 func main() {
   var me = new(Person)
   
-  me.name     = "U7P4L 1N"
-  me.username = "U7P4L-IN"
+  me.name     = "SandroGauna"
+  me.username = "SandroGauna"
   me.age      = "20"
-  me.job      = "AI developer | Web developer"
+  me.job      = "BlockChain Developer | Web developer"
   me.hobbies  = []string{"code", "anime", "music"," guiterist"," gaming"}
   
   fmt.Println(me)
 }
 ```
-### 💻 Tech Stack
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 ## <img src='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/handShake.gif' width="50px" height=50px> Connect With Me
